@@ -1,0 +1,171 @@
+body {
+    background-image: url();
+   
+}
+
+/* Navbar Big Container */
+.container-fluid {
+    margin-top: 0;
+    background-color: rgba(0, 172, 51, 0.918);
+    /* border-radius: 10px; */
+    padding: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Website Name */
+.navbar-brand {
+    color: white;
+}
+
+/* Navbar inside White */
+#navbarSupportedContent {
+    
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Navbar top margin */
+.navbar {
+    /* box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3); */
+    margin-top: -8px;
+}
+
+/* Navbar Links */
+.nav-link:hover {
+    color: rgba(0, 172, 51, 0.918);
+
+}
+
+/* Navbar Buttons */
+.btn {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-color: rgb(75, 75, 75);
+}
+
+.btn:hover {
+    background-color: rgb(53, 53, 53);
+    border-color: rgb(53, 53, 53);
+}
+
+
+/* #carouselExample {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+
+} */
+
+
+/* Slide Show Inner Part */
+.carousel-inner{
+    margin: auto;
+    height: 700px;
+    width: 1260px;
+    border-radius: 20px;
+    /* border: 5px solid rgb(235, 235, 235); */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Bottom shadow */
+}
+
+/* Slide Show Captions */
+.carousel-caption {
+    height: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgba(35, 148, 35, 0.808);
+    color: black;
+    border-radius: 10px;
+}
+
+/* Flex Box Setting */
+.d-flex {
+    background-color: rgb(0, 172, 51, 0.918);
+    border: 1px solid rgb(0, 172, 51, 0.918);
+    border-radius: 6px;
+}
+
+/* Search Left Side Margin */
+.form-control {
+    margin-left: 5px;
+}
+
+/* Card Container */
+.cardcontainer {
+    display: flex;
+    margin: 6px;
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+
+}
+.cardcontainer2 {
+    display: flex;
+    margin: 6px;
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+/* Cars Setting */
+.card {
+    /* display: inline-flex; */
+    background-color: rgba(5, 133, 5, 0.719);
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), /* Right shadow */
+                0px 5px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+                transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4), /* Right shadow on hover */
+                0px 5px 20px rgba(0, 0, 0, 0.4); /* Bottom shadow on hover */
+}
+
+
+/* Headings Settings*/
+.heading1 {
+    cursor: pointer;
+    padding: 1px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 2px solid rgba(136, 136, 136, 0.767);
+    background-color: rgb(0, 172, 51, 0.918);
+    box-shadow: inset 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.heading2 {
+    cursor: pointer;
+    padding: 1px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 2px solid rgba(136, 136, 136, 0.767);
+    background-color: rgb(0, 172, 51, 0.918);
+    box-shadow: inset 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.heading3 {
+    cursor: pointer;
+    padding: 1px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 2px solid rgba(136, 136, 136, 0.767);
+    background-color: rgb(0, 172, 51, 0.918);
+    box-shadow: inset 0px 0px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+
